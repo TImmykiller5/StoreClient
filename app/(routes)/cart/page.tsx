@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 import CartItem from './components/cart-item'
 import Summary from './components/cart-summary'
 
-const page = () => {
+const Page = () => {
   const cart = useCart()
 
   const [isMounted, setIsMounted] = useState(false)
@@ -44,4 +44,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

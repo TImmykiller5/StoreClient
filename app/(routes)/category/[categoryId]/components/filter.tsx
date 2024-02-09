@@ -13,7 +13,7 @@ interface FilterProps{
     options:(Size | Color)[]
 }
 
-const filter:React.FC<FilterProps> = ({
+const Filter:React.FC<FilterProps> = ({
     value,
     label,
     options
@@ -59,4 +59,4 @@ const filter:React.FC<FilterProps> = ({
   )
 }
 
-export default filter
+export default Filter
